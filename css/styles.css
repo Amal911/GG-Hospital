@@ -1,54 +1,62 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-body{
+
+body {
     margin: 0;
     font-family: 'Inter';
 }
-section{
-    padding: 0 5%   ;
 
+section {
+    padding: 0 6%;
+    background-color: #fefefe;
 }
 
-#nav-contact{
+#nav-contact {
     padding: 0 5%;
     display: flex;
     justify-content: space-between;
     background-color: #F5F5F5;
     font-size: 12px;
 }
-#nav-contact-follow-us{
+
+#nav-contact-follow-us {
     display: flex;
     align-items: center;
     gap: 5px;
-    
+
 }
-#nav-contact-follow-us img{
+
+#nav-contact-follow-us img {
     width: 18px;
 }
-#nav-contact-phn-email img{
+
+#nav-contact-phn-email img {
     height: 18px;
 }
-#nav-contact-phn-email div{
+
+#nav-contact-phn-email div {
     display: flex;
     align-items: center;
     gap: 5px;
 }
-#nav-contact-phn-email{
+
+#nav-contact-phn-email {
     display: flex;
     gap: 10px;
     align-items: center;
 
 }
 
-#nav{
+#nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-#nav img{
+
+#nav img {
     height: 65px;
 }
-#nav ul{
+
+#nav ul {
     display: flex;
     gap: 25px;
     list-style-type: none;
@@ -56,45 +64,276 @@ section{
     font-weight: 500;
 }
 
-#nav ul li:hover{
+#nav ul li:hover {
     color: red;
-cursor: pointer;
+    cursor: pointer;
 }
 
 
 .dropdown {
     float: left;
     overflow: hidden;
-  }
-  
-  .dropdown .dropbtn {
+}
+
+.dropdown .dropbtn {
     border: none;
     outline: none;
     background-color: inherit;
     font-weight: 500;
-  }
-  .dropdown-content {
+}
+
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-  }
-  
-  .dropdown-content a {
+}
+
+.dropdown-content a {
     float: none;
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
-  }
-  
-  .dropdown-content a:hover {
+}
+
+.dropdown-content a:hover {
     background-color: #ddd;
-  }
-  
-  .dropdown:hover .dropdown-content {
+}
+
+.dropdown:hover .dropdown-content {
     display: block;
-  }  
+}
+
+
+#home-img {
+    background-image: url('../assets/image\ 23.png');
+    height: 520px;
+    background-size: cover;
+    padding: 0 10%;
+    display: flex;
+    align-items: center;
+}
+
+#home-text {
+    width: 40%;
+}
+
+#home-headline {
+    font-size: 3rem;
+}
+
+#btn-appointment {
+    background-color: #17c1a3;
+    padding: 10px 15px;
+    font-size: .8rem;
+    border: none;
+    color: #fff;
+    border-radius: 5%;
+}
+
+.home-btns {
+    gap: 3rem;
+}
+
+.home-btns,
+.doctor-talk {
+    display: flex;
+    align-items: center;
+}
+
+#play-img {
+    width: 25px;
+}
+
+.doctor-talk {
+    font-size: .8rem;
+    gap: .5rem;
+}
+
+#appointment{
+    position: relative;
+}
+#appointment-card{
+    position: relative;
+    top: -80px;
+    padding: 1%;
+}
+.appointment-input-forms{
+    font-size: 0.8rem;
+    width: 300px;
+}
+.department-card{
+    border: none;
+    height: 400px;
+}
+.department-card-body{
+    padding: 0;
+}
+
+.department-img{
+    width: 99%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.department-desc{
+    font-size: .8rem;
+}
+
+.department-read-more{
+    font-size: .8rem;
+    color: #17c1a3;
+}
+
+.department-arrows{
+    width: 300px;
+    color: gray;
+}
+.department-arrows:hover{
+    color: #000;
+}
+#department-hearder{
+    width: 100px;
+}
+
+
+
+
+#why-gg-card{
+    background-image: url(../assets/Group\ 154.png);
+    background-size: cover;
+    height: 80vh;
+    padding: 5%;
+}
+
+#why-gg-desc{
+    width: 30%;
+}
+#why-gg-desc p{
+    font-size: 0.8rem;
+    margin: 20px 0;
+}
+#why-gg-desc i{
+    color: #17c1a3;
+    margin: 0 5px;
+}
+
+
+
+
+#specialist{
+    height: 100vh;
+}
+.specialist-img{
+    width: 100%;
+}
+.specialist-tag{
+    font-size: 0.7rem;
+    color: grey;
+}
+#specialist-view-btn{
+    background-color: #17c1a3;
+    padding: 8px 15px;
+    font-size: .8rem;
+    border: none;
+    color: #fff;
+    border-radius: 5%;
+    width: 10%;
+}
+#facilities{
+    margin-bottom: 15%;
+
+}
+#facilities,#intrested{
+    height: 70vh;
+
+}
+
+.facilities-img{
+    width: 32%;
+    object-fit: cover;
+}
+
+#intrested-news{
+    background-color: #eaf2ff;
+    position: relative;
+    height: 100vh;
+}
+
+#intrested{
+    position: relative;
+    background-color: transparent;
+    top: -25%;
+}
+.intrested-card{
+    width: 32%;
+    border: none;
+    background-color: transparent;
+}
+.intrested-card p{
+    font-size: .8rem;
+}
+
+.intrested-img{
+    object-fit: cover;
+    width: 100%;
+}
+.read-more-span{
+    color: #17c1a3;
+    cursor: pointer;
+}
+
+
+#newsletter-card{
+    position: relative;
+    top: -10%;
+    background-image: url("../assets/Mask\ group.png");
+    background-size: cover;
+    height: 30vh;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+#newsletter-card h5{
+    width: 70%;
+    font-weight: bold;
+}
+#newsletter-card button{
+    background-color: #17c1a3;
+    border: none;
+    font-size: .8rem;
+}
+#newsletter-input{
+    padding-bottom: 1px;
+    border-bottom: 1px solid black;
+}
+#newsletter-input input{
+    border: none;
+}
+#newsletter-input input::placeholder{
+    font-size: 0.8rem;
+    color: gray;
+}
+#footer{
+    
+}
+#footer p{
+    font-size: .6rem;
+}
+#footer h6{
+    font-size: .8rem;
+    font-weight: bold;
+}
+#footer-gg-logo{
+    width: 200px;
+}
+#footer-social {
+    width: 60%;
+}
+#footer-social img{
+    width: 20px;
+}
